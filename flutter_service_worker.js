@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "943a880ebc59d14cd3ad6621ed441f5a",
-"assets/AssetManifest.bin.json": "916498b9e39aa8fb7c9209b0f6fc2572",
-"assets/AssetManifest.json": "fdece2d462b74d0e39a256f5bdb0f214",
+const RESOURCES = {"assets/AssetManifest.bin": "e1fec1658e1303e5478a35e164541697",
+"assets/AssetManifest.bin.json": "8579e0d9bcd0ddfd433500dbb14d932f",
+"assets/AssetManifest.json": "6c1c4a4020097933d911e7b5da377604",
 "assets/assets/fonts/agustina/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/montserrat/montserrat.ttf": "ee6539921d713482b8ccd4d0d23961bb",
 "assets/assets/fonts/poppins/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
@@ -72,6 +72,13 @@ const RESOURCES = {"assets/AssetManifest.bin": "943a880ebc59d14cd3ad6621ed441f5a
 "assets/assets/images/mob/jdm/jdm4.png": "0e9c50b5bfd233539dc8615ad0ea7644",
 "assets/assets/images/mob/jdm/jdm_cover.jpg": "f4536f784cfd67b2ceb2ffccdede5572",
 "assets/assets/images/mob/jdm/jdm_icon.png": "45f6bd4e5de7fa5892fd0b0cdb9f963a",
+"assets/assets/images/mob/live_stream_simulator/lss1.png": "142d53b90c0cdceae6006f11064fc833",
+"assets/assets/images/mob/live_stream_simulator/lss2.png": "461122ae0583cf60d6c444303933ee53",
+"assets/assets/images/mob/live_stream_simulator/lss3.png": "0c0ecb9ef7ca3d656a623ee4b971dc0b",
+"assets/assets/images/mob/live_stream_simulator/lss4.png": "68bc648a7ae68f74854394f6c53b8c30",
+"assets/assets/images/mob/live_stream_simulator/lss5.png": "d64c1363c1d50f232f2d314c03f9a8d6",
+"assets/assets/images/mob/live_stream_simulator/lss_cover.png": "911a14ec1f7c316d77b5022bbd3242cf",
+"assets/assets/images/mob/live_stream_simulator/lss_icon.png": "8790089525a5d32bc9c6e20a5c06b8e8",
 "assets/assets/images/mob/nx_shop/nx1.png": "d5d1246ad15819f80ae45550c443055c",
 "assets/assets/images/mob/nx_shop/nx2.png": "9004c8db4282a2480565ef6d3acac5ae",
 "assets/assets/images/mob/nx_shop/nx3.png": "8747d9f9173f19c7f31e8e58bf90d0f6",
@@ -163,11 +170,11 @@ const RESOURCES = {"assets/AssetManifest.bin": "943a880ebc59d14cd3ad6621ed441f5a
 "icons/ms-icon-150x150.png": "2316087a57fcc723bc4216bcc2701803",
 "icons/ms-icon-310x310.png": "bf54e6ddcb280c1a3c99675b27586bcd",
 "icons/ms-icon-70x70.png": "db57234ef266d55398c8864d688d01fd",
-"index.html": "a44d43ca2b6ffd96a715ff7cdb77d96f",
-"/": "a44d43ca2b6ffd96a715ff7cdb77d96f",
-"main.dart.js": "1b695aaeded70fc7eb68ea62b0279378",
+"index.html": "6e1301646a55d576c70afc3be3f96084",
+"/": "6e1301646a55d576c70afc3be3f96084",
+"main.dart.js": "08886dc5e48f7085c4cea7ac97decf63",
 "manifest.json": "a630f86aaa86066eba9a22082f7fe7a1",
-"version.json": "70eb6c878f9fba4f78e4b4bcbdc96318"};
+"version.json": "ca85f2b749275d31e7eb1324ad27ec74"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
