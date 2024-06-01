@@ -77,7 +77,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "e1fec1658e1303e5478a35e164541697
 "assets/assets/images/mob/live_stream_simulator/lss3.png": "0c0ecb9ef7ca3d656a623ee4b971dc0b",
 "assets/assets/images/mob/live_stream_simulator/lss4.png": "68bc648a7ae68f74854394f6c53b8c30",
 "assets/assets/images/mob/live_stream_simulator/lss5.png": "d64c1363c1d50f232f2d314c03f9a8d6",
-"assets/assets/images/mob/live_stream_simulator/lss_cover.png": "911a14ec1f7c316d77b5022bbd3242cf",
+"assets/assets/images/mob/live_stream_simulator/lss_cover.png": "f90806b7438a416f0acd6b92bfb6909e",
 "assets/assets/images/mob/live_stream_simulator/lss_icon.png": "8790089525a5d32bc9c6e20a5c06b8e8",
 "assets/assets/images/mob/nx_shop/nx1.png": "d5d1246ad15819f80ae45550c443055c",
 "assets/assets/images/mob/nx_shop/nx2.png": "9004c8db4282a2480565ef6d3acac5ae",
@@ -170,11 +170,11 @@ const RESOURCES = {"assets/AssetManifest.bin": "e1fec1658e1303e5478a35e164541697
 "icons/ms-icon-150x150.png": "2316087a57fcc723bc4216bcc2701803",
 "icons/ms-icon-310x310.png": "bf54e6ddcb280c1a3c99675b27586bcd",
 "icons/ms-icon-70x70.png": "db57234ef266d55398c8864d688d01fd",
-"index.html": "6e1301646a55d576c70afc3be3f96084",
-"/": "6e1301646a55d576c70afc3be3f96084",
-"main.dart.js": "08886dc5e48f7085c4cea7ac97decf63",
+"index.html": "dc95e032d113cdae1766448a611bf0a8",
+"/": "dc95e032d113cdae1766448a611bf0a8",
+"main.dart.js": "e1453e53932f1d693ad85e363a457ae9",
 "manifest.json": "a630f86aaa86066eba9a22082f7fe7a1",
-"version.json": "ca85f2b749275d31e7eb1324ad27ec74"};
+"version.json": "dce101697c25724a97cef6582465827b"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
