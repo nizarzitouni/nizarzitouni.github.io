@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "45d8e2ebb63dc6e21040c25da186ad3f",
-"assets/AssetManifest.bin.json": "a3487268e6005f27137df010b525aa23",
-"assets/AssetManifest.json": "40e504b6b80eaf3cff9a50e22ade5fae",
+const RESOURCES = {"assets/AssetManifest.bin": "994ace9b3bb42e34586a85c562ee89fe",
+"assets/AssetManifest.bin.json": "597ee7d2192684652889e964465996da",
+"assets/AssetManifest.json": "1030d4e7966567d8fd07c97c60a4a470",
 "assets/assets/fonts/agustina/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/montserrat/montserrat.ttf": "ee6539921d713482b8ccd4d0d23961bb",
 "assets/assets/fonts/poppins/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
@@ -114,6 +114,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "45d8e2ebb63dc6e21040c25da186ad3f
 "assets/assets/images/mob/sa3arli/sa5.png": "cef81c776d8482da91dffd496e6669b0",
 "assets/assets/images/mob/sa3arli/sa_cover.png": "fb73072a701188c51f50432246f990e5",
 "assets/assets/images/mob/sa3arli/sa_icon.png": "43aa03271f71765ebe51ef978ad8f799",
+"assets/assets/images/mob/stretchyv1/ss.png": "f200770ae55dc3f303fc7e0a77e1e44a",
 "assets/assets/images/mob/stretchyv1/st1.png": "724ab8e1df84cb0e762da997753d4db3",
 "assets/assets/images/mob/stretchyv1/st2.png": "8dbc2e6c1b2ba992a439efb86fde154a",
 "assets/assets/images/mob/stretchyv1/st3.png": "2d113a67ddf02fb50990a7a51c455fec",
@@ -123,7 +124,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "45d8e2ebb63dc6e21040c25da186ad3f
 "assets/assets/images/mob/stretchyv1/st7.png": "a250091fb2c64cb7e11f3059e5782f1f",
 "assets/assets/images/mob/stretchyv1/st8.png": "2557ac5cc142ed7623e73ce7730e256e",
 "assets/assets/images/mob/stretchyv1/st9.png": "d870c7f606e9e327f416a7ba29ba5dca",
-"assets/assets/images/mob/stretchyv1/stv1_cover.png": "f200770ae55dc3f303fc7e0a77e1e44a",
+"assets/assets/images/mob/stretchyv1/stv1_cover.png": "f22fde4b2a3a828f827acd8d5008457f",
 "assets/assets/images/mob/stretchyv1/stv1_icon.png": "ef8a20fd0b88bd9d36f4fb87823eca83",
 "assets/assets/images/mob/stretchyv2/stv2_1.png": "75b9113653273bac01d96e6dfa6a9f21",
 "assets/assets/images/mob/stretchyv2/stv2_2.png": "fce1b0f5f787d72138e9fe9690b10769",
@@ -202,11 +203,11 @@ const RESOURCES = {"assets/AssetManifest.bin": "45d8e2ebb63dc6e21040c25da186ad3f
 "icons/ms-icon-150x150.png": "2316087a57fcc723bc4216bcc2701803",
 "icons/ms-icon-310x310.png": "bf54e6ddcb280c1a3c99675b27586bcd",
 "icons/ms-icon-70x70.png": "db57234ef266d55398c8864d688d01fd",
-"index.html": "d6ec27fd851bcd4f5ff20c64f8e59242",
-"/": "d6ec27fd851bcd4f5ff20c64f8e59242",
-"main.dart.js": "08ca29b5b2c6a5ddd9c629d1386389ae",
+"index.html": "ebf77096796ba970a26a57f61b3ddf69",
+"/": "ebf77096796ba970a26a57f61b3ddf69",
+"main.dart.js": "7dd5e08c866a1fd8ed97758b45057e55",
 "manifest.json": "a630f86aaa86066eba9a22082f7fe7a1",
-"version.json": "97200287f8ccb3a3a64c5bcf9720da39"};
+"version.json": "5002bf2d95512b94b0b17b1b3b138fad"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
