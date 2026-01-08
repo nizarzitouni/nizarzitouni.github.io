@@ -100943,7 +100943,7 @@ return A.b([m,q,A.h4($.aUc,p,"https://www.behance.net/gallery/190658551/Level-De
 s($,"b9N","aQk",()=>A.h3("assets/images/mob/dupli/dupli_cover.png","assets/images/mob/dupli/dupli_icon.png"))
 s($,"bat","aQI",()=>A.h3("assets/images/mob/stretchyv1/stv1_cover.png","assets/images/mob/stretchyv1/stv1_icon.png"))
 s($,"bau","aQJ",()=>A.h3("assets/images/mob/stretchyv2/stv2_cover.png","assets/images/mob/stretchyv2/stv2_icon.png"))
-s($,"baB","aQO",()=>A.h3("assets/images/mob/workoutFinder/wf_cover.png","assets/images/mob/workoutFinder/wf_icon.png"))
+s($,"baB","aQO",()=>A.h3("assets/images/mob/workout_finder/wf_cover.png","assets/images/mob/workout_finder/wf_icon.png"))
 s($,"ba0","aQq",()=>A.h3("assets/images/mob/jdm/jdm_cover.jpg","assets/images/mob/jdm/jdm_icon.png"))
 s($,"bac","aQw",()=>A.h3("assets/images/mob/live_stream_simulator/lss_cover.png","assets/images/mob/live_stream_simulator/lss_icon.png"))
 s($,"bam","aQE",()=>A.h3("assets/images/mob/quick_qr_pro/qqp_cover.png","assets/images/mob/quick_qr_pro/qqp_icon.png"))
