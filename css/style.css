@@ -197,6 +197,7 @@ a:hover { color: var(--accent); }
     .portrait { justify-self: start; max-width: 320px; }
     .chapter { min-height: auto; padding: 56px 16px; }
     .chapter:nth-child(even) .fig { order: 0; }
+    .fig .lbl.br { bottom: 34px; }
     .hero, .page, .footer, .nav { padding-left: 16px; padding-right: 16px; }
     .screens { margin: 32px -16px; padding: 0 16px 12px; }
 }
