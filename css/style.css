@@ -228,3 +228,14 @@ a:hover { color: var(--accent); }
 .ring { fill: none; stroke: var(--accent); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
 .bob { animation: bob 1.4s ease-in-out infinite; }
 @keyframes bob { 50% { transform: translateY(-5px); } }
+
+.email-reveal { font-family: var(--mono); }
+.email-reveal.locked { color: var(--mute); border-bottom: 1px dashed var(--line); }
+.email-reveal.locked:hover { color: var(--accent); border-color: var(--accent); }
+.email-reveal.decrypting { color: var(--ink); cursor: progress; }
+.email-reveal .glyph { color: var(--accent); text-shadow: 0 0 8px var(--accent); }
+.email-reveal.revealed { animation: reveal-flash .7s ease-out; }
+@keyframes reveal-flash {
+    0% { color: var(--accent); text-shadow: 0 0 14px var(--accent); }
+    100% { text-shadow: none; }
+}
