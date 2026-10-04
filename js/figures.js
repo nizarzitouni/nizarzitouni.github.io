@@ -118,15 +118,16 @@ Figures.skyline = (svg, setStatus) => {
         });
     }
 
-    svg.addEventListener('mousemove', e => {
-        const hit = e.target.closest('[data-i]');
-        const i = hit ? +hit.dataset.i : -1;
+    const tower = e => e?.target.closest?.('[data-i]');
+    const select = i => {
         if (i === hover) return;
         hover = i;
         setStatus(i < 0 ? total : `${towers[i].name} · ${towers[i].v}K`);
         if (!busy) draw();
-    });
-    svg.addEventListener('mouseleave', () => { hover = -1; setStatus(total); if (!busy) draw(); });
+    };
+
+    svg.addEventListener('mousemove', e => select(tower(e) ? +tower(e).dataset.i : -1));
+    svg.addEventListener('mouseleave', () => select(-1));
 
     draw();
     Iso.fit(svg, 12);
@@ -141,7 +142,11 @@ Figures.skyline = (svg, setStatus) => {
     new IntersectionObserver((entries, obs) => {
         if (entries[0].isIntersecting) { grow(); obs.disconnect(); }
     }, { threshold: .5 }).observe(svg);
-    return grow;
+    // Phones have no hover, so a tap on a tower selects it instead of replaying the growth.
+    return e => {
+        const hit = tower(e);
+        if (hit) select(+hit.dataset.i); else grow();
+    };
 };
 
 Figures.phones = (svg, setStatus) => {
