@@ -21,9 +21,16 @@ function card(p) {
     </a>`;
 }
 
+const gallery = `<a class="card wide" href="models.html">
+    <img src="assets/sketchfab/f747bd0e5cb04158899295ab0768096c.webp" alt="" loading="lazy">
+    <h3>3D model gallery</h3>
+    <p>${MODELS.length} low-poly models, scenes and game assets you can orbit in 3D.</p>
+    <span class="meta">Sketchfab</span>
+</a>`;
+
 function render(filter) {
     const list = filter === 'all' ? PROJECTS : PROJECTS.filter(p => p.kind === filter);
-    grid.innerHTML = list.map(card).join('');
+    grid.innerHTML = list.map(card).join('') + (filter === 'mobile' ? '' : gallery);
     buttons.forEach(b => b.setAttribute('aria-pressed', b.dataset.filter === filter));
 }
 

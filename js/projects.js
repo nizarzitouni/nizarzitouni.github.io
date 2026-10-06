@@ -583,11 +583,12 @@ window.PROJECTS = [
     "tagline": "An epic low-poly asset pack: buildings, characters, props, vehicles, environments.",
     "live": "https://sketchfab.com/3d-models/polytown-low-poly-city-pack-699546b57f3e4b38986061e995ac20ad",
     "description": "An Epic Low Poly asset pack of Buildings, Characters, Props, Viehcules and Environment assets to create a low poly themed polygonal style game",
-    "role": "I was the creator of the whole app",
+    "role": "Sole creator of the whole pack - modelling, texturing and character rigging",
     "tech": [
       "Unity",
       "Blender"
     ],
+    "models": ["699546b57f3e4b38986061e995ac20ad"],
     "icon": "assets/game_design/poly_town/polyTown_icon.webp",
     "cover": "assets/game_design/poly_town/polyTown_cover.webp",
     "screens": [
@@ -603,12 +604,13 @@ window.PROJECTS = [
     "live": "https://assetstore.unity.com/packages/3d/environments/historic/medieval-indoor-kit-3d-224308",
     "behance": "https://www.behance.net/gallery/190658551/Level-Desing-Medieval-Indoor-Kit-3D",
     "description": "Introducing my latest creation: a comprehensive asset pack tailored for game developers seeking to infuse their projects with the allure of medieval interiors. With over 100 meticulously crafted assets including modular walls, floors, and props, this pack offers boundless opportunities for creating immersive game environments.\n",
-    "role": "I was the creator of the whole app",
+    "role": "Sole creator of the whole pack - modelling and texturing",
     "tech": [
       "Unity",
       "Blender",
       "Gimp"
     ],
+    "models": ["814fffc28ab44b8a80bd874858369c8a", "3d6da0d1488d4fcf9f857ddca08346a6", "3aa7cc64479a471389174d366fcf8e47"],
     "icon": "assets/game_design/medieval_pack/med_icon.webp",
     "cover": "assets/game_design/medieval_pack/med_cover.webp",
     "screens": [

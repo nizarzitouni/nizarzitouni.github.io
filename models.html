@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects · Nizar Zitouni</title>
-    <meta name="description" content="Mobile apps, 3D work and level design by Nizar Zitouni.">
+    <title>3D Models · Nizar Zitouni</title>
+    <meta name="description" content="Low-poly models, scenes and game assets by Nizar Zitouni, viewable in 3D.">
     <link rel="icon" href="favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,20 +23,24 @@
     </nav>
 
     <main class="page">
-        <p class="eyebrow">Index</p>
-        <h1>Everything I've built</h1>
-        <p class="lead">Apps I shipped under NZ-Dev and for clients, plus my 3D and level design work.</p>
-        <div class="tabs" role="group" aria-label="Filter projects">
-            <button data-filter="all">All</button>
-            <button data-filter="mobile">Mobile</button>
-            <button data-filter="3d">3D &amp; games</button>
-        </div>
-        <div class="grid" id="grid"></div>
+        <a class="back" href="projects.html#3d">← All projects</a>
+        <p class="eyebrow">Sketchfab</p>
+        <h1>3D models</h1>
+        <p class="lead">Low-poly models, scenes and game assets I made in Blender. Click one to orbit it in 3D. All of them live on <a href="https://sketchfab.com/N1x" target="_blank" rel="noopener noreferrer">sketchfab.com/N1x ↗</a></p>
+        <div class="grid models" id="models"></div>
     </main>
 
-    <script src="js/projects.js"></script>
+    <dialog class="viewer-dialog" id="viewer">
+        <div class="viewer-head">
+            <h2></h2>
+            <button class="btn close" aria-label="Close">Close</button>
+        </div>
+        <div class="stage"></div>
+    </dialog>
+
     <script src="js/models.js"></script>
-    <script src="js/list.js"></script>
+    <script src="js/viewer.js"></script>
+    <script src="js/gallery.js"></script>
     <script src="js/email.js"></script>
 </body>
 </html>

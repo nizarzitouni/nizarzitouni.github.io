@@ -18,6 +18,10 @@ if (!p) {
     const next = siblings[(i + 1) % siblings.length];
     const links = LINKS.filter(([k]) => p[k]).map(([k, label]) => external(p[k], label)).join('');
     const wide = p.kind === '3d';
+    const models = (p.models ?? []).map(uid => MODELS.find(m => m.uid === uid)).filter(Boolean);
+    const picks = models.length > 1
+        ? `<div class="tabs picks">${models.map(m => `<button data-uid="${m.uid}">${escape(m.title)}</button>`).join('')}</div>`
+        : '';
 
     root.innerHTML = `
         <a class="back" href="projects.html#${p.kind}">← All projects</a>
@@ -27,6 +31,7 @@ if (!p) {
         </div>
         <p class="detail-tagline">${escape(p.tagline)}</p>
         ${links ? `<p class="links">${links}</p>` : ''}
+        ${models.length ? `<div class="viewer"><div class="stage"></div>${picks}</div>` : ''}
         <div class="screens${wide ? ' wide' : ''}">
             ${p.screens.map((s, n) => `<img src="${s}" alt="${escape(p.title)} screenshot ${n + 1}" loading="lazy">`).join('')}
         </div>
@@ -44,4 +49,23 @@ if (!p) {
             <a href="project.html?p=${prev.slug}">← ${escape(prev.title)}</a>
             <a href="project.html?p=${next.slug}">${escape(next.title)} →</a>
         </div>`;
+
+    if (models.length) mountViewer(root.querySelector('.viewer'), models);
+}
+
+// the poster defers the heavy WebGL embed until asked; after that, picks swap models directly
+function mountViewer(el, models) {
+    const stage = el.querySelector('.stage');
+    let live = false;
+    const show = m => {
+        if (live) {
+            stage.replaceChildren(Viewer.frame(m.uid, m.title));
+        } else {
+            stage.innerHTML = `<button class="poster"><img src="${m.thumb}" alt=""><span>View ${escape(m.title)} in 3D</span></button>`;
+            stage.firstChild.addEventListener('click', () => { live = true; show(m); });
+        }
+        el.querySelectorAll('[data-uid]').forEach(b => b.setAttribute('aria-pressed', b.dataset.uid === m.uid));
+    };
+    el.querySelectorAll('[data-uid]').forEach(b => b.addEventListener('click', () => show(models.find(m => m.uid === b.dataset.uid))));
+    show(models[0]);
 }
