@@ -23,6 +23,7 @@ window.PROJECTS = [
     ],
     "icon": "assets/mob/social_profile_prank/sp_icon.webp",
     "cover": "assets/mob/social_profile_prank/spp_cover.webp",
+    "video": { "id": "3YaVWJj57Tw", "poster": "assets/mob/social_profile_prank/video.webp" },
     "screens": [
       "assets/mob/social_profile_prank/spp1.webp",
       "assets/mob/social_profile_prank/spp2.webp",
@@ -55,6 +56,7 @@ window.PROJECTS = [
     ],
     "icon": "assets/mob/mockly/mockly_icon.webp",
     "cover": "assets/mob/mockly/mockly_cover.webp",
+    "video": { "id": "BMqBrVmIjsI", "poster": "assets/mob/mockly/video.webp" },
     "screens": [
       "assets/mob/mockly/mockly1.webp",
       "assets/mob/mockly/mockly2.webp",
@@ -130,6 +132,7 @@ window.PROJECTS = [
     ],
     "icon": "assets/mob/poseghost/poseghost_icon.webp",
     "cover": "assets/mob/poseghost/poseghost_cover.webp",
+    "video": { "id": "dQok_VKFibI", "poster": "assets/mob/poseghost/video.webp" },
     "screens": [
       "assets/mob/poseghost/poseghost1.webp",
       "assets/mob/poseghost/poseghost2.webp",
@@ -213,6 +216,7 @@ window.PROJECTS = [
     ],
     "icon": "assets/mob/stretchyv2/stv2_icon.webp",
     "cover": "assets/mob/stretchyv2/stv2_cover.webp",
+    "video": { "id": "IEULaMb6XrM", "poster": "assets/mob/stretchyv2/video.webp" },
     "screens": [
       "assets/mob/stretchyv2/stv2_1.webp",
       "assets/mob/stretchyv2/stv2_2.webp",
@@ -240,16 +244,16 @@ window.PROJECTS = [
     ],
     "icon": "assets/mob/workout_finder/wf_icon.webp",
     "cover": "assets/mob/workout_finder/wf_cover.webp",
+    "video": { "id": "g0wkngBEEB0", "poster": "assets/mob/workout_finder/video.webp" },
     "screens": [
-      "assets/mob/workout_finder/1.webp",
-      "assets/mob/workout_finder/2.webp",
-      "assets/mob/workout_finder/3.webp",
-      "assets/mob/workout_finder/4.webp",
-      "assets/mob/workout_finder/5.webp",
-      "assets/mob/workout_finder/6.webp",
-      "assets/mob/workout_finder/8.webp",
-      "assets/mob/workout_finder/9.webp",
-      "assets/mob/workout_finder/10.webp"
+      "assets/mob/workout_finder/trainy_1.webp",
+      "assets/mob/workout_finder/trainy_2.webp",
+      "assets/mob/workout_finder/trainy_3.webp",
+      "assets/mob/workout_finder/trainy_4.webp",
+      "assets/mob/workout_finder/trainy_5.webp",
+      "assets/mob/workout_finder/trainy_6.webp",
+      "assets/mob/workout_finder/trainy_7.webp",
+      "assets/mob/workout_finder/trainy_8.webp"
     ]
   },
   {
@@ -273,6 +277,7 @@ window.PROJECTS = [
     ],
     "icon": "assets/mob/wardrobe_snap/ws_icon.webp",
     "cover": "assets/mob/wardrobe_snap/ws_cover.webp",
+    "video": { "id": "N2sjv63YfYY", "poster": "assets/mob/wardrobe_snap/video.webp" },
     "screens": [
       "assets/mob/wardrobe_snap/ws1.webp",
       "assets/mob/wardrobe_snap/ws2.webp",
@@ -351,6 +356,7 @@ window.PROJECTS = [
     ],
     "icon": "assets/mob/jdm/jdm_icon.webp",
     "cover": "assets/mob/jdm/jdm_cover.webp",
+    "video": { "id": "B4AtJQyzxTA", "poster": "assets/mob/jdm/video.webp" },
     "screens": [
       "assets/mob/jdm/jdm1.webp",
       "assets/mob/jdm/jdm2.webp",
@@ -374,6 +380,7 @@ window.PROJECTS = [
     ],
     "icon": "assets/mob/live_stream_simulator/lss_icon.webp",
     "cover": "assets/mob/live_stream_simulator/lss_cover.webp",
+    "video": { "id": "vEj8215ZkcU", "poster": "assets/mob/live_stream_simulator/video.webp" },
     "screens": [
       "assets/mob/live_stream_simulator/lss1.webp",
       "assets/mob/live_stream_simulator/lss2.webp",
@@ -540,6 +547,7 @@ window.PROJECTS = [
     ],
     "icon": "assets/mob/anatomia/an_icon.webp",
     "cover": "assets/mob/anatomia/an_cover.webp",
+    "video": { "id": "g15C_Nddxe4", "poster": "assets/mob/anatomia/video.webp" },
     "screens": [
       "assets/mob/anatomia/an1.webp",
       "assets/mob/anatomia/an2.webp",

@@ -19,6 +19,9 @@ if (!p) {
     const links = LINKS.filter(([k]) => p[k]).map(([k, label]) => external(p[k], label)).join('');
     const wide = p.kind === '3d';
     const models = (p.models ?? []).map(uid => MODELS.find(m => m.uid === uid)).filter(Boolean);
+    const clip = p.video
+        ? `<button class="clip"><img src="${p.video.poster}" alt=""><span>▶ Play video</span></button>`
+        : '';
     const picks = models.length > 1
         ? `<div class="tabs picks">${models.map(m => `<button data-uid="${m.uid}">${escape(m.title)}</button>`).join('')}</div>`
         : '';
@@ -33,6 +36,7 @@ if (!p) {
         ${links ? `<p class="links">${links}</p>` : ''}
         ${models.length ? `<div class="viewer"><div class="stage"></div>${picks}</div>` : ''}
         <div class="screens${wide ? ' wide' : ''}">
+            ${clip}
             ${p.screens.map((s, n) => `<img src="${s}" alt="${escape(p.title)} screenshot ${n + 1}" loading="lazy">`).join('')}
         </div>
         <div class="detail-body">
@@ -50,6 +54,8 @@ if (!p) {
             <a href="project.html?p=${next.slug}">${escape(next.title)} →</a>
         </div>`;
 
+    // the YouTube player only loads once the poster is clicked
+    if (p.video) root.querySelector('.clip').addEventListener('click', e => e.currentTarget.replaceWith(Viewer.youtube(p.video.id, p.title)));
     if (models.length) mountViewer(root.querySelector('.viewer'), models);
 }
 
