@@ -315,6 +315,40 @@ window.PROJECTS = [
     ]
   },
   {
+    "slug": "tilawa-studio",
+    "kind": "mobile",
+    "title": "Tilawa Studio",
+    "tagline": "Record your own Quran recitation and get a video with every ayah in sync.",
+    "playStore": "https://play.google.com/store/apps/details?id=nz.dev.tilawastudio",
+    "description": "Tilawa Studio is a Flutter app that turns the user's own Quran recitation into a 9:16 video with the ayah text in sync. Pick a passage, record it with a teleprompter or import an audio file, and the app places the ayah markers automatically, entirely on the device, by matching the recording against reference ayah lengths, with optional taps as hints. The user fixes any marker in a timing editor, then styles the video with 10 Arabic and 15 Latin fonts, background videos and filters, and renders it with FFmpeg. Premium adds a Mushaf page mode, background changes between ayahs with transitions, voice effects and custom filters, and removes the watermark. Every recitation is saved as a project that can be reopened, retimed or re-rendered. The UI is localized in 7 languages including Arabic (RTL) and comes in a dark and a light theme. It is the paid sister app of Quran Reels Maker, with RevenueCat subscriptions and Remote Config tuning how often the paywall shows. Built with Cubit state management and Freezed models.",
+    "role": "Sole creator of the entire app - product design, ayah detection, video rendering pipeline, UI/UX design, localization, monetization, and Play Store release",
+    "tech": [
+      "Flutter",
+      "BLoC/Cubit",
+      "Freezed",
+      "Go Router",
+      "Get It (DI)",
+      "FFmpeg",
+      "Audio Recording",
+      "Localization (7 languages)",
+      "RevenueCat (IAP)",
+      "Firebase Analytics",
+      "Firebase Crashlytics",
+      "Firebase Remote Config",
+      "Cloud Firestore",
+      "Microsoft Clarity"
+    ],
+    "icon": "assets/mob/tilawa_studio/ts_icon.webp",
+    "cover": "assets/mob/tilawa_studio/ts_cover.webp",
+    "screens": [
+      "assets/mob/tilawa_studio/ts1.webp",
+      "assets/mob/tilawa_studio/ts2.webp",
+      "assets/mob/tilawa_studio/ts3.webp",
+      "assets/mob/tilawa_studio/ts4.webp",
+      "assets/mob/tilawa_studio/ts5.webp"
+    ]
+  },
+  {
     "slug": "quran-reels-maker",
     "kind": "mobile",
     "title": "Quran Reels Maker",
